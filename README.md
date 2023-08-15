@@ -1,5 +1,5 @@
 # k-d_tree
-k-d tree library
+k-d tree static/dynamic library
  - builds a k-d tree from a list of points.
  - searches the tree to find the node closest to a given (x, y) location.
 
@@ -12,6 +12,7 @@ then to test, Run ->
 
 For additional make recipes :-
 Type following commands for more builds
+
 		1. For creating shared library. Run -> make libshared
         Builds libkdtree as a shared library
   
@@ -26,7 +27,7 @@ Type following commands for more builds
         Creates executable from static library.
         To test, Run -> ./static your_file.csv x y
 
-    5. To clean the directory. Run -> make clean
+        5. To clean the directory. Run -> make clean
 
 
 Files Description
