@@ -4,7 +4,8 @@ k-d tree static/dynamic library
  - searches the tree to find the node closest to a given (x, y) location.
 
 Detailed Description
-  This library finds the node nearest a given point (a random (x,y) point not belonging to the tree), by traversing the tree and calculating the distance from each node visited to the input point.  It keeps track of the bounding box of the region defined by each node in the tree and avoids visiting nodes that we already know are farther away than the current minimum distance.
+
+	This library finds the node nearest a given point (a random (x,y) point not belonging to the tree), by traversing the tree and calculating the distance from each node visited to the input point.  It keeps track of the bounding box of the region defined by each node in the tree and avoids visiting nodes that we already know are farther away than the current minimum distance.
 
 To start, type "make" in the terminal, giving an executable. 
 To test, Run ->
