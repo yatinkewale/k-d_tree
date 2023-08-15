@@ -27,27 +27,25 @@ For additional make recipes -
 Type the following commands for more builds
 
 	1. make libshared
-        Builds libkdtree as a shared library
+	# Builds libkdtree as a shared library
 
   
 	2. make libstatic
-        Builds libkdtree as a static library
+	# Builds libkdtree as a static library
 
   
 	3. make shared
-        Creates executable from shared library.
-	
-        To test, 	Run ->	./shared your_file.csv point_x point_y
+	# Creates executable from shared library.
+	# To test, 	Run ->	./shared your_file.csv point_x point_y
 
 	
 	4. make static
-	Creates executable from static library.
-	
-        To test, 	Run ->	./static your_file.csv point_x point_y
+	# Creates executable from static library.
+	# To test, 	Run ->	./static your_file.csv point_x point_y
 
 
 	5. make clean 
-	Cleans the directory.
+	# Cleans the directory.
 
 
 Files Description
