@@ -41,12 +41,12 @@ Type the following commands for more builds
 
 	
 	4. make static
-        Creates executable from static library.
+	Creates executable from static library.
 	
         To test, 	Run ->	./static your_file.csv point_x point_y
 
 
-        5. make clean 
+	5. make clean 
 	Cleans the directory.
 
 
