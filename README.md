@@ -10,6 +10,7 @@ To start, type "make" in the terminal, giving an executable.
 To test, Run ->
 ./basic your_file.csv x y
 
+
 To generate a random dataset of "n_points" number of "x,y" coordinates,
 	python3 generate_random_points.py output_file.csv n_points
 
