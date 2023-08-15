@@ -9,7 +9,7 @@ Detailed Description
 To start, type "make" in the terminal, giving an executable. 
 To test, Run ->
 
-./basic your_file.csv x y
+./basic your_file.csv point_x point_y
 
 
 
@@ -36,7 +36,7 @@ Type the following commands for more builds
         Creates executable from static library.
         To test, Run -> ./static your_file.csv x y
 
-        5. To clean the directory. Run -> make clean
+        	5. To clean the directory. Run -> make clean
 
 
 Files Description
