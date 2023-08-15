@@ -6,12 +6,15 @@ k-d tree static/dynamic library
 Detailed Description
   This library finds the node nearest a given point (a random (x,y) point not belonging to the tree), by traversing the tree and calculating the distance from each node visited to the input point.  It keeps track of the bounding box of the region defined by each node in the tree and avoids visiting nodes that we already know are farther away than the current minimum distance.
 
-To get started, just type "make" in terminal, which will give executable from obj files, 
-then to test, Run ->
+To start, type "make" in the terminal, giving an executable. 
+To test, Run ->
 ./basic your_file.csv x y
 
-For additional make recipes :-
-Type following commands for more builds
+To generate a random dataset of "n_points" number of "x,y" coordinates,
+	python3 generate_random_points.py output_file.csv n_points
+
+For additional make recipes -
+Type the following commands for more builds
 
 		1. For creating shared library. Run -> make libshared
         Builds libkdtree as a shared library
