@@ -47,7 +47,6 @@ Type the following commands for more builds
 	5. make clean 
 	# Cleans the directory.
 
-
 Files Description
 + **kdtree.h**: Header file defining the libtree API
 + **kdtree.c**: Implementation for APIs
